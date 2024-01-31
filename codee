@@ -1,0 +1,12 @@
+#qn1
+x = int(input())
+y = int(input())
+z = int(input())
+total_cost = x + (y * z) * 12
+print(total_cost)
+
+#qn2
+money = int(input())
+ride_cost = int(input())
+no_of_rides = money // ride_cost
+print(no_of_rides)
